@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FUL USFX - Federación Universitaria Local</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <!-- Logos -->
+                <div class="logos">
+                    <img src="images/logo-ful.png" alt="Logo FUL" class="logo">
+                    <img src="images/logo-usfx.png" alt="Logo USFX" class="logo">
+                    <img src="images/logo-gestion.png" alt="Logo Gestión" class="logo">
+                </div>
+                
+                <!-- Título Principal -->
+                <div class="main-title">
+                    <h1>FEDERACION UNIVERSITARIA LOCAL USFX</h1>
+                    <h2>Universidad Mayor, Real y Pontificia de San Francisco Xavier de Chuquisaca</h2>
+                </div>
+
+                <!-- Navegación Móvil -->
+                <div class="mobile-menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navegación Principal -->
+    <nav class="main-nav" id="mainNav">
+        <div class="container">
+            <ul class="nav-list">
+                <li><a href="#inicio" class="nav-link active">Inicio</a></li>
+                <li><a href="#noticias" class="nav-link">Noticias</a></li>
+                <li><a href="#academico" class="nav-link">Académico</a></li>
+                <li><a href="#cultura" class="nav-link">Cultura</a></li>
+                <li><a href="#deporte" class="nav-link">Deporte</a></li>
+                <li><a href="#paginas-universitarias" class="nav-link">Universitarios</a></li>
+                <li><a href="#redes" class="nav-link">Redes</a></li>
+                <li><a href="#reglamentos" class="nav-link">Reglamentos</a></li>
+                <li><a href="#facultades" class="nav-link">Facultades</a></li>
+                <li><a href="#centro-estudiantes" class="nav-link">C. Estudiantes</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Contenido Principal -->
+    <main class="main-content">
+        
+        <!-- Sección Inicio -->
+        <section id="inicio" class="section inicio-section active">
+            <div class="container">
+                <h2 class="section-title">Bienvenidos a la FUL USFX</h2>
+                
+                <!-- Carrusel Principal -->
+                <div class="carousel-container">
+                    <div class="carousel" id="mainCarousel">
+                        <div class="carousel-track" id="carouselTrack">
+                            <!-- Las imágenes y videos se cargarán automáticamente aquí -->
+                        </div>
+                    </div>
+                    <div class="carousel-controls">
+                        <button class="carousel-btn prev" id="prevBtn">❮</button>
+                        <button class="carousel-btn next" id="nextBtn">❯</button>
+                    </div>
+                    <div class="carousel-indicators" id="carouselIndicators">
+                        <!-- Los indicadores se generarán automáticamente -->
+                    </div>
+                </div>
+
+                <!-- Información de Bienvenida -->
+                <div class="welcome-content">
+                    <p>La Federación Universitaria Local (FUL) de la Universidad Mayor, Real y Pontificia de San Francisco Xavier de Chuquisaca representa y defiende los derechos e intereses de todos los estudiantes universitarios.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Noticias -->
+        <section id="noticias" class="section noticias-section">
+            <div class="container">
+                <h2 class="section-title">Noticias</h2>
+                
+				<div class="noticias-grid" id="noticiasGrid">
+					<!-- Noticia 1 -->
+					<div class="noticia-card">
+						<img src="images/elecciones.jpg" alt="Elecciones 2025" class="noticia-image">
+						<div class="noticia-content">
+							<h3 class="noticia-title">Elecciones FUL 2025</h3>
+							<p class="noticia-text">Vota este 20 de julio desde las 8:00 AM en el patio central.</p>
+							<div class="noticia-date">15 de Julio, 2025</div>
+						</div>
+					</div>
+
+					<!-- Noticia 2 -->
+					<div class="noticia-card">
+						<img src="images/talleres.jpg" alt="Talleres culturales" class="noticia-image">
+						<div class="noticia-content">
+							<h3 class="noticia-title">Talleres Gratuitos</h3>
+							<p class="noticia-text">Inscríbete en talleres de danza, teatro y música hasta el 10 de agosto.</p>
+							<div class="noticia-date">1 de Agosto, 2025</div>
+						</div>
+					</div>
+				</div>
+            </div>
+        </section>
+
+        <!-- Sección Académico -->
+        <section id="academico" class="section academico-section">
+            <div class="container">
+                <h2 class="section-title">Académico</h2>
+                
+                <div class="academic-grid">
+                    <div class="academic-card">
+                        <div class="card-icon">📋</div>
+                        <h3>Trámites Administrativos</h3>
+                        <p>Accede a todos los trámites y procedimientos administrativos universitarios.</p>
+                        <a href="https://usfx.bo/tramites/" target="_blank" class="btn-primary">Acceder</a>
+                    </div>
+                    
+                    <div class="academic-card">
+                        <div class="card-icon">📄</div>
+                        <h3>Formularios</h3>
+                        <p>Descarga y completa los formularios oficiales de la universidad.</p>
+                        <a href="https://usfx.bo/formularios/" target="_blank" class="btn-primary">Ver Formularios</a>
+                    </div>
+                    
+                    <div class="academic-card">
+                        <div class="card-icon">📅</div>
+                        <h3>Calendario Académico 2025</h3>
+                        <p>Consulta fechas importantes del calendario académico 2025.</p>
+                        <a href="https://usfx.bo/calendario-academico-2025/" target="_blank" class="btn-primary">Ver Calendario</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Cultura -->
+        <section id="cultura" class="section cultura-section">
+            <div class="container">
+                <h2 class="section-title">Cultura</h2>
+                
+                <div class="cultura-content">
+                    <div class="entrada-universitaria">
+                        <h3>Entrada Universitaria</h3>
+                        <p>Celebramos la tradición y cultura universitaria de Sucre con la magnífica Entrada Universitaria, donde participan todas las facultades con sus danzas tradicionales.</p>
+                        
+                        <!-- Carrusel Cultural -->
+                        <div class="cultura-carousel">
+                            <div class="cultura-carousel-track" id="culturaCarousel">
+                                <!-- Imágenes de cultura se cargarán aquí -->
+                            </div>
+                        </div>
+                        
+                        <!-- Generadores de Fotos -->
+                        <div class="photo-generators">
+                            <div class="generator-card">
+                                <div class="generator-icon">💃</div>
+                                <h4>Generador de Foto Bailarín</h4>
+                                <p>Crea tu foto como bailarín de la Entrada Universitaria</p>
+                                <a href="https://fulusfx.github.io/Entrada-Universitaria-USFX-FUL-NACER/" target="_blank" class="btn-secondary">Generar Foto</a>
+                            </div>
+                            
+                            <div class="generator-card">
+                                <div class="generator-icon">📊</div>
+                                <h4>Generador Soy Encuestador</h4>
+                                <p>Crea tu foto como encuestador universitario</p>
+                                <a href="https://fulusfx.github.io/SOY-ENCUESTADOR/" target="_blank" class="btn-secondary">Generar Foto</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Deporte -->
+        <section id="deporte" class="section deporte-section">
+            <div class="container">
+                <h2 class="section-title">Deporte</h2>
+                
+                <div class="deportes-grid">
+                    <div class="deporte-card">
+                        <h3>Juegos Interprovinciales</h3>
+                        <p>Competencias deportivas entre universidades de diferentes provincias de Bolivia.</p>
+                        
+                        <!-- Carrusel Interprovinciales -->
+                        <div class="deporte-carousel">
+                            <div class="deporte-carousel-track" id="interprovincialesCarousel">
+                                <!-- Imágenes y videos de juegos interprovinciales -->
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="deporte-card">
+                        <h3>Juegos Interfacultades</h3>
+                        <p>Competencias deportivas entre las diferentes facultades de la USFX.</p>
+                        
+                        <!-- Carrusel Interfacultades -->
+                        <div class="deporte-carousel">
+                            <div class="deporte-carousel-track" id="interfacultadesCarousel">
+                                <!-- Imágenes y videos de juegos interfacultades -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Páginas Universitarias -->
+        <section id="paginas-universitarias" class="section paginas-section">
+            <div class="container">
+                <h2 class="section-title">Páginas Universitarias</h2>
+                
+                <div class="paginas-grid">
+                    <div class="pagina-card">
+                        <div class="card-icon">📚</div>
+                        <h3>Plan de Estudios</h3>
+                        <p>Consulta los planes de estudio de todas las carreras</p>
+                        <a href="https://si.usfx.bo/planestudio/ctrl/index.php?id=0&pag=123&ex=yes&op=fad" target="_blank" class="btn-primary">Acceder</a>
+                    </div>
+                    
+                    <div class="pagina-card">
+                        <div class="card-icon">📊</div>
+                        <h3>Notas Universitarias</h3>
+                        <p>Sistema de consulta de notas y calificaciones</p>
+                        <a href="https://si2.usfx.bo/suniver/web/Cuenta/security/login" target="_blank" class="btn-primary">Acceder</a>
+                    </div>
+                    
+                    <div class="pagina-card">
+                        <div class="card-icon">💻</div>
+                        <h3>ECAMPUS</h3>
+                        <p>Plataforma virtual de aprendizaje</p>
+                        <a href="https://ecampus.usfx.bo/login/index.php" target="_blank" class="btn-primary">Acceder</a>
+                    </div>
+                    
+                    <div class="pagina-card">
+                        <div class="card-icon">📖</div>
+                        <h3>Biblioteca Virtual</h3>
+                        <p>Acceso a recursos bibliográficos digitales</p>
+                        <a href="https://bibliotecas.usfx.bo/" target="_blank" class="btn-primary">Acceder</a>
+                    </div>
+                    
+                    <div class="pagina-card">
+                        <div class="card-icon">🏥</div>
+                        <h3>Seguro Universitario</h3>
+                        <p>Información sobre el seguro social universitario estudiantil</p>
+                        <a href="https://usfx.bo/2023/04/14/pre-afiliacion-al-seguro-social-universitario-estudiantil/" target="_blank" class="btn-primary">Acceder</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Redes Sociales -->
+        <section id="redes" class="section redes-section">
+            <div class="container">
+                <h2 class="section-title">Redes Sociales</h2>
+                
+                <div class="redes-grid">
+                    <div class="red-card">
+                        <div class="social-icon facebook-icon">📘</div>
+                        <h3>Facebook</h3>
+                        <p>Síguenos en nuestra página oficial de Facebook</p>
+                        <div class="red-buttons">
+                            <a href="https://www.facebook.com/NacerALaFUL/?locale=es_LA" target="_blank" class="btn-primary">Visitar</a>
+                            <button class="btn-secondary copy-btn" data-url="https://www.facebook.com/NacerALaFUL/?locale=es_LA">Copiar Enlace</button>
+                        </div>
+                    </div>
+                    
+                    <div class="red-card">
+                        <div class="social-icon tiktok-icon">🎵</div>
+                        <h3>TikTok</h3>
+                        <p>Contenido dinámico y actual en nuestra cuenta de TikTok</p>
+                        <div class="red-buttons">
+                            <a href="https://www.tiktok.com/@ful_nacer?_t=ZM-8x7ayT5C5hu&_r=1" target="_blank" class="btn-primary">Visitar</a>
+                            <button class="btn-secondary copy-btn" data-url="https://www.tiktok.com/@ful_nacer?_t=ZM-8x7ayT5C5hu&_r=1">Copiar Enlace</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Reglamentos -->
+        <section id="reglamentos" class="section reglamentos-section">
+            <div class="container">
+                <h2 class="section-title">Reglamentos</h2>
+                
+                <div class="reglamentos-grid">
+                    <div class="reglamento-card">
+                        <div class="card-icon">📋</div>
+                        <h3>Reglamento USFX</h3>
+                        <p>Reglamento general de la Universidad San Francisco Xavier</p>
+                        <a href="https://drive.google.com/drive/folders/1EzJN_ZgfewGjQLvg16a711asUiy6fTIt?usp=sharing" target="_blank" class="btn-primary">Ver Reglamento</a>
+                    </div>
+                    
+                    <div class="reglamento-card">
+                        <div class="card-icon">🎓</div>
+                        <h3>Reglamento Estudiantil</h3>
+                        <p>Normativas específicas para estudiantes universitarios</p>
+                        <a href="https://drive.google.com/drive/folders/1qbNLb2NHcJDpsPaEXArAnpil4rkjqhm3?usp=sharing" target="_blank" class="btn-primary">Ver Reglamento</a>
+                    </div>
+                    
+                    <div class="reglamento-card">
+                        <div class="card-icon">📝</div>
+                        <h3>Reglamento de Examen con Tribunal</h3>
+                        <p>Normativas para exámenes con tribunal académico</p>
+                        <a href="https://drive.google.com/drive/folders/1edZNAdXnL0oBuIltLWZv3VBFoaqQFQD7?usp=sharing" target="_blank" class="btn-primary">Ver Reglamento</a>
+                    </div>
+                    
+                    <div class="reglamento-card">
+                        <div class="card-icon">⚖️</div>
+                        <h3>Resoluciones</h3>
+                        <p>Resoluciones oficiales y normativas institucionales</p>
+                        <a href="https://drive.google.com/drive/folders/12FPUqMkGalSzwgTc9hSPz4MK-uWqm1IO?usp=sharing" target="_blank" class="btn-primary">Ver Resoluciones</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Facultades -->
+        <section id="facultades" class="section facultades-section">
+            <div class="container">
+                <h2 class="section-title">Facultades</h2>
+                
+                <div class="facultades-grid">
+                    <div class="facultad-card">
+                        <div class="facultad-icon">⚖️</div>
+                        <h3>Derecho, Ciencias Políticas y Sociales</h3>
+                        <a href="https://sociales.usfx.bo/" target="_blank" class="btn-primary">Visitar</a>
+                    </div>
+                    
+                    <div class="facultad-card">
+                        <div class="facultad-icon">🏥</div>
+                        <h3>Medicina</h3>
+                        <a href="https://medicina.usfx.bo/" target="_blank" class="btn-primary">Visitar</a>
+                    </div>
+                    
+                    <div class="facultad-card">
+                        <div class="facultad-icon">🦷</div>
+                        <h3>Odontología</h3>
+                        <a href="https://odontologia.usfx.bo/" target="_blank" class="btn-primary">Visitar</a>
+                    </div>
+                    
+                    <div class="facultad-card">
+                        <div class="facultad-icon">⚗️</div>
+                        <h3>Ciencias Químico Farmacéuticas y Bioquímicas</h3>
+                        <a href="https://farbio.usfx.bo/" target="_blank" class="btn-primary">Visitar</a>
+                    </div>
+                    
+                    <div class="facultad-card">
+                        <div class="facultad-icon">💰</div>
+                        <h3>Contaduría Pública y Ciencias Financieras</h3>
+                        <a href="https://cpcf.usfx.bo/" target="_blank" class="btn-primary">Visitar</a>
+                    </div>
+                    
+                    <div class="facultad-card">
+                        <div class="facultad-icon">📈</div>
+                        <h3>Ciencias Económicas y Empresariales</h3>
+                        <a href="https://economicas.usfx.bo/" target="_blank" class="btn-primary">Visitar</a>
+                    </div>
+                    
+                    <div class="facultad-card">
+                        <div class="facultad-icon">💻</div>
+                        <h3>Ciencias y Tecnología</h3>
+                        <a href="https://tecnologia.usfx.bo/" target="_blank" class="btn-primary">Visitar</a>
+                    </div>
+                    
+                    <div class="facultad-card">
+                        <div class="facultad-icon">🌾</div>
+                        <h3>Ciencias Agrarias</h3>
+                        <a href="https://agrarias.usfx.bo/" target="_blank" class="btn-primary">Visitar</a>
+                    </div>
+                    
+                    <div class="facultad-card">
+                        <div class="facultad-icon">📚</div>
+                        <h3>Humanidades y Ciencias de la Educación</h3>
+                        <a href="https://humanidades.usfx.bo/" target="_blank" class="btn-primary">Visitar</a>
+                    </div>
+                    
+                    <div class="facultad-card">
+                        <div class="facultad-icon">🔧</div>
+                        <h3>Facultad Técnica</h3>
+                        <a href="https://tecnica.usfx.bo/" target="_blank" class="btn-primary">Visitar</a>
+                    </div>
+                    
+                    <div class="facultad-card">
+                        <div class="facultad-icon">👩‍⚕️</div>
+                        <h3>Ciencias de Enfermería y Obstetricia</h3>
+                        <a href="https://enfermeria.usfx.bo/" target="_blank" class="btn-primary">Visitar</a>
+                    </div>
+                    
+                    <div class="facultad-card">
+                        <div class="facultad-icon">🧬</div>
+                        <h3>Ciencias y Tecnologías de la Salud</h3>
+                        <a href="https://tecnologicasalud.usfx.bo/" target="_blank" class="btn-primary">Visitar</a>
+                    </div>
+                    
+                    <div class="facultad-card">
+                        <div class="facultad-icon">⚡</div>
+                        <h3>Ingeniería y Ciencias Aplicadas Meca Electrónicas</h3>
+                        <a href="https://ficam.usfx.bo/" target="_blank" class="btn-primary">Visitar</a>
+                    </div>
+                    
+                    <div class="facultad-card">
+                        <div class="facultad-icon">🏗️</div>
+                        <h3>Arquitectura y Ciencias del Hábitat</h3>
+                        <a href="https://arquitectura.usfx.bo/" target="_blank" class="btn-primary">Visitar</a>
+                    </div>
+                    
+                    <div class="facultad-card">
+                        <div class="facultad-icon">🏢</div>
+                        <h3>Ingeniería Civil</h3>
+                        <a href="https://civil.usfx.bo/" target="_blank" class="btn-primary">Visitar</a>
+                    </div>
+                    
+                    <div class="facultad-card">
+                        <div class="facultad-icon">🛡️</div>
+                        <h3>Integral Defensores del Chaco</h3>
+                        <a href="https://defensores.usfx.bo/" target="_blank" class="btn-primary">Visitar</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Centro de Estudiantes -->
+        <section id="centro-estudiantes" class="section centro-estudiantes-section">
+            <div class="container">
+                <h2 class="section-title">Centros de Estudiantes</h2>
+                
+                <div class="centros-grid">
+                    <div class="centro-card">
+                        <div class="centro-icon">👨‍👨‍👧‍👦</div>
+                        <h3>Centro Estudiantes DERECHO</h3>
+                        <a href="#" class="btn-primary">Acceder</a>
+                    </div>
+                    <div class="centro-card">
+                        <div class="centro-icon">👨‍👨‍👧‍👦</div>
+                        <h3>Centro Estudiantes COMUNICACIÓN SOCIAL</h3>
+                        <a href="#" class="btn-primary">Acceder</a>
+                    </div>
+                    <div class="centro-card">
+                        <div class="centro-icon">👨‍👨‍👧‍👦</div>
+                        <h3>Centro Estudiantes SOCIOLOGIA</h3>
+                        <a href="#" class="btn-primary">Acceder</a>
+                    </div>
+                    <div class="centro-card">
+                        <div class="centro-icon">👨‍👨‍👧‍👦</div>
+                        <h3>Centro Estudiantes HISTORIA</h3>
+                        <a href="#" class="btn-primary">Acceder</a>
+                    </div>
+                    <div class="centro-card">
+                        <div class="centro-icon">👨‍👨‍👧‍👦</div>
+                        <h3>Centro Estudiantes MEDICINA</h3>
+                        <a href="#" class="btn-primary">Acceder</a>
+                    </div>
+                    <div class="centro-card">
+                        <div class="centro-icon">👨‍👨‍👧‍👦</div>
+                        <h3>Centro Estudiantes ODONTOLOGIA</h3>
+                        <a href="#" class="btn-primary">Acceder</a>
+                    </div>
+                    <div class="centro-card">
+                        <div class="centro-icon">👨‍👨‍👧‍👦</div>
+                        <h3>Centro Estudiantes FARBIO</h3>
+                        <a href="#" class="btn-primary">Acceder</a>
+                    </div>
+                    <div class="centro-card">
+                        <div class="centro-icon">👨‍👨‍👧‍👦</div>
+                        <h3>Centro Estudiantes CONTADURIA</h3>
+                        <a href="#" class="btn-primary">Acceder</a>
+                    </div>
+                    <div class="centro-card">
+                        <div class="centro-icon">👨‍👨‍👧‍👦</div>
+                        <h3>Centro Estudiantes ECONOMIA</h3>
+                        <a href="#" class="btn-primary">Acceder</a>
+                    </div>
+                    <div class="centro-card">
+                        <div class="centro-icon">👨‍👨‍👧‍👦</div>
+                        <h3>Centro Estudiantes ARQUITECTURA</h3>
+                        <a href="#" class="btn-primary">Acceder</a>
+                    </div>
+                    <div class="centro-card">
+                        <div class="centro-icon">👨‍👨‍👧‍👦</div>
+                        <h3>Centro Estudiantes ING. CIVIL</h3>
+                        <a href="#" class="btn-primary">Acceder</a>
+                    </div>
+                    <div class="centro-card">
+                        <div class="centro-icon">👨‍👨‍👧‍👦</div>
+                        <h3>Centro Estudiantes TEC MED</h3>
+                        <a href="#" class="btn-primary">Acceder</a>
+                    </div>
+                    <div class="centro-card">
+                        <div class="centro-icon">👨‍👨‍👧‍👦</div>
+                        <h3>Centro Estudiantes TECNICA ELECTRONICA</h3>
+                        <a href="#" class="btn-primary">Acceder</a>
+                    </div>
+                    <div class="centro-card">
+                        <div class="centro-icon">👨‍👨‍👧‍👦</div>
+                        <h3>Centro Estudiantes TECNICA CIVL</h3>
+                        <a href="#" class="btn-primary">Acceder</a>
+                    </div>
+                    <div class="centro-card">
+                        <div class="centro-icon">👨‍👨‍👧‍👦</div>
+                        <h3>Centro Estudiantes TECNICA MECANICA</h3>
+                        <a href="#" class="btn-primary">Acceder</a>
+                    </div>
+                    <div class="centro-card">
+                        <div class="centro-icon">👨‍👨‍👧‍👦</div>
+                        <h3>Centro Estudiantes TECNOLOGIA 6X</h3>
+                        <a href="#" class="btn-primary">Acceder</a>
+                    </div>
+                    <div class="centro-card">
+                        <div class="centro-icon">👨‍👨‍👧‍👦</div>
+                        <h3>Centro Estudiantes TECNOLOGIA TECNICAS</h3>
+                        <a href="#" class="btn-primary">Acceder</a>
+                    </div>
+                    <div class="centro-card">
+                        <div class="centro-icon">👨‍👨‍👧‍👦</div>
+                        <h3>Centro Estudiantes TECNOLOGIA SISTEMAS</h3>
+                        <a href="#" class="btn-primary">Acceder</a>
+                    </div>
+                    <div class="centro-card">
+                        <div class="centro-icon">👨‍👨‍👧‍👦</div>
+                        <h3>Centro Estudiantes ENFERMERIA</h3>
+                        <a href="#" class="btn-primary">Acceder</a>
+                    </div>
+                    <div class="centro-card">
+                        <div class="centro-icon">👨‍👨‍👧‍👦</div>
+                        <h3>Centro Estudiantes IDIOMAS</h3>
+                        <a href="#" class="btn-primary">Acceder</a>
+                    </div>
+                    <div class="centro-card">
+                        <div class="centro-icon">👨‍👨‍👧‍👦</div>
+                        <h3>Centro Estudiantes PSICOLOGIA</h3>
+                        <a href="#" class="btn-primary">Acceder</a>
+                    </div>
+                    <div class="centro-card">
+                        <div class="centro-icon">👨‍👨‍👧‍👦</div>
+                        <h3>Centro Estudiantes PEDAGOGIA</h3>
+                        <a href="#" class="btn-primary">Acceder</a>
+                    </div>
+                    <div class="centro-card">
+                        <div class="centro-icon">👨‍👨‍👧‍👦</div>
+                        <h3>Centro Estudiantes TRABAJO SOCIAL</h3>
+                        <a href="#" class="btn-primary">Acceder</a>
+                    </div>
+                    <div class="centro-card">
+                        <div class="centro-icon">👨‍👨‍👧‍👦</div>
+                        <h3>Centro Estudiantes TURISMO Y GASTRONOMIA</h3>
+                        <a href="#" class="btn-primary">Acceder</a>
+                    </div>
+                    <div class="centro-card">
+                        <div class="centro-icon">👨‍👨‍👧‍👦</div>
+                        <h3>Centro Estudiantes FICAM</h3>
+                        <a href="#" class="btn-primary">Acceder</a>
+                    </div>
+                    <div class="centro-card">
+                        <div class="centro-icon">👨‍👨‍👧‍👦</div>
+                        <h3>Centro Estudiantes ING. AGRONOMIA</h3>
+                        <a href="#" class="btn-primary">Acceder</a>
+                    </div>
+                               
+                    <div class="centro-card">
+                        <div class="centro-icon">🏅</div>
+                        <h3>Centro de Estudiantes Tec. Agronomia</h3>
+                        <a href="#" class="btn-primary">Acceder</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Investigación -->
+        <section id="investigacion" class="section investigacion-section">
+            <div class="container">
+                <h2 class="section-title">Investigación</h2>
+                
+                <div class="investigacion-grid">
+                    <div class="investigacion-card">
+                        <div class="card-icon">🔬</div>
+                        <h3>Dirección de Investigación</h3>
+                        <p>Dirección de Investigación Científica y Tecnológica</p>
+                        <a href="https://dicyt.usfx.bo/" target="_blank" class="btn-primary">Acceder</a>
+                    </div>
+                    
+                    <div class="investigacion-card">
+                        <div class="card-icon">🏛️</div>
+                        <h3>Institutos de Investigación</h3>
+                        <p>Conoce todos los institutos de investigación de la USFX</p>
+                        <a href="https://usfx.bo/institutos-de-investigacion/" target="_blank" class="btn-primary">Ver Institutos</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>FUL USFX</h4>
+                    <p>Federación Universitaria Local<br>
+                    Universidad Mayor, Real y Pontificia de San Francisco Xavier de Chuquisaca</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Contacto: 75767923</h4>
+                    <p>Ubicación: C. Calvo #173<br>
+                    Entre Bolivar y Avaroa<br>
+                    Sucre - Boliviar</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Redes Sociales</h4>
+                    <div class="footer-social">
+                        <a href="https://www.facebook.com/NacerALaFUL/?locale=es_LA" target="_blank">Facebook</a>
+                        <a href="https://www.tiktok.com/@ful_nacer?_t=ZM-8x7ayT5C5hu&_r=1" target="_blank">TikTok</a>
+                    </div>
+                </div>
+			</div>
+					<div class="footer-bottom">
+						<p>&copy; 2025 FUL USFX. Todos los derechos reservados.</p>
+					</div>
+		</div>
+				<div class="footer-map">
+					<h4>Ubicación</h4>
+					<iframe 
+						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3798.454344427808!2d-65.26078592401905!3d-19.04794498108994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTnCsDAyJzUyLjYiUyA2NcKwMTUnMzMuNiJX!5e0!3m2!1ses!2sbo!4v1620000000000!5m2!1ses!2sbo" 
+						width="90%" 
+						height="200" 
+						style="border:80;" 
+						allowfullscreen="" 
+						loading="lazy">
+					</iframe>
+				</div>
+		
+	</footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+
+
+</body>
+</html>
