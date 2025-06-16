@@ -523,32 +523,35 @@ p {
 .deporte-carousel {
     position: relative;
     width: 100%;
-    max-width: 1200px; /* Ajusta según necesites */
+    max-width: 1200px;
     margin: 0 auto;
-    background: #dc2626; /* Fondo blanco para los espacios */
+    background: #dc2626;
     border-radius: var(--radius-xl);
     overflow: hidden;
     box-shadow: var(--shadow-lg);
+    aspect-ratio: 16/9; /* Proporción inicial (pantallas anchas) */
 }
 
 .cultura-carousel-track,
 .deporte-carousel-track {
     display: flex;
     transition: transform var(--transition-slow);
-    height: 500px; /* Altura fija para el carrusel (ajusta este valor) */
-    align-items: center; /* Centra verticalmente las imágenes */
+    height: 100%; /* Altura relativa al contenedor */
 }
-* Cada slide/item del carrusel */
+
+/* Cada slide/item del carrusel */
 .cultura-carousel .carousel-item,
-.deporte-carousel .carousel-item
- {
+.deporte-carousel .carousel-item {
     min-width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #dc2626; /* Fondo blanco para los espacios */
+    background: #dc2626;
+    padding: 10px; /* Espacio interno */
+    box-sizing: border-box;
 }
+
 /* Imágenes con proporción original */
 .cultura-carousel .carousel-item img,
 .deporte-carousel .carousel-item img {
@@ -556,24 +559,40 @@ p {
     max-height: 100%;
     width: auto;
     height: auto;
-    object-fit: contain; /* Mantiene proporción sin recortar */
+    object-fit: contain;
     display: block;
 }
 
-@media (max-width: 768px) {
-    .carousel {
-        height: 300px;
-    }
-    
+/* Media queries para diferentes dispositivos */
+@media (max-width: 992px) {
     .cultura-carousel,
     .deporte-carousel {
-        height: 200px;
+        aspect-ratio: 4/3; /* Proporción más cuadrada para tablets */
+    }
+}
+
+@media (max-width: 768px) {
+    .cultura-carousel,
+    .deporte-carousel {
+        aspect-ratio: 1/1; /* Proporción cuadrada para móviles grandes */
     }
     
     .carousel-btn {
         width: 40px;
         height: 40px;
         font-size: 1rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .cultura-carousel,
+    .deporte-carousel {
+        aspect-ratio: 9/16; /* Proporción vertical para móviles pequeños */
+    }
+    
+    .cultura-carousel .carousel-item,
+    .deporte-carousel .carousel-item {
+        padding: 5px; /* Menos padding en móviles muy pequeños */
     }
 }
 
