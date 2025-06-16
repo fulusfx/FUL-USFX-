@@ -372,7 +372,7 @@ function loadNewsFallback() {
             title: 'ENTRADA UNIVERSITARIA USFX 2025',
             content: 'La Entrada Universitaria de la USFX es más que una fiesta: es una muestra de identidad cultural, unidad estudiantil y orgullo por nuestra universidad. Reúne a todas las carreras en un evento que celebra nuestras tradiciones con danza, música y arte. Participar en ella fortalece el sentido de pertenencia y promueve el vínculo entre la comunidad universitaria y la sociedad.',
             date: '2025-06-14',
-            image: 'noticias/i1.png' // Imagen local
+            image: 'noticias/i1.jpg' // Imagen local
         },
         {
             title: 'ELECCION ÑUSTA USFX',
